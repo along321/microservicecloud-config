@@ -1,0 +1,18 @@
+﻿spring:
+  profiles: dev
+  application:
+    name: microsevicecloud-name-dev
+server:
+	port: 8201
+---
+spring:
+     profiles: test
+     application:
+       name: microsevicecloud-name-test
+server:
+	port: 8202
+---
+spring:
+  profiles:
+    active:
+      - dev
