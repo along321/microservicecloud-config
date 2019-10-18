@@ -3,14 +3,14 @@
   application:
     name: microsevicecloud-name-dev
 server:
-	port: 8201
+  port: 8201
 ---
 spring:
-     profiles: test
-     application:
-       name: microsevicecloud-name-test
+  profiles: test
+  application:
+    name: microsevicecloud-name-test
 server:
-	port: 8202
+  port: 8202
 ---
 spring:
   profiles:
